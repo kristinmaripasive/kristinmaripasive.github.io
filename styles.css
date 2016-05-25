@@ -28,6 +28,19 @@ h1 {
   font-weight: bold;
 }
 
+h1 sub {
+  color: #aaa;
+  vertical-align: baseline;
+}
+
+h1 sub: before {
+  content:"(";
+}
+
+h1 sub: before {
+  content:")";
+}
+
 img {
   border-radius: 50%;
 }

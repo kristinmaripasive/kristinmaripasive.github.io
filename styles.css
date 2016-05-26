@@ -66,7 +66,6 @@ div.headshot {
   margin-right: auto;
   border-radius: 50%;
   overflow: hidden;
-  outline: 1px solid red;
   transition: transform 1s, box-shadow 1s;
 }
 
@@ -81,10 +80,6 @@ div.headshot:hover {
   box-shadow: 0px 0px 100px 50px #fc0;
 }
 
-div.headshot:hover img {
-  opacity: 0;
-}
-
 .nav {
   position: fixed;
   display: flex;
@@ -96,10 +91,9 @@ div.headshot:hover img {
   flex-grow: 1;
   line-height: 50px;
   list-style-type: none;
-  background-color: fc0;
   transition: color 0.2s;
 }
 
 .nav li:hover {
-  background-color: #fa0;
+  background-color: #FEBEBF;
 }

@@ -33,6 +33,10 @@ h1 {
   font-weight: bold;
 }
 
+h3 {
+  color: #80D3ED;
+}
+
 img {
   border-radius: 50%;
 }
@@ -42,12 +46,16 @@ img {
   height:100%;
 }
 
-.hero {
-  height: 100vh;
+.hero{
+  height: 50vh;
   display: flex;
   flex-direction: column;
   justify-content: center;
   font-family: 'Poiret One', cursive;
+}
+
+.hero header{
+  margin: 100px;
 }
 
 .hero h1 {
@@ -87,9 +95,14 @@ div.headshot:hover {
   flex-grow: 1;
   line-height: 50px;
   list-style-type: none;
-  transition: color 0.2s;
 }
 
 .nav li:hover {
   background-color: #FEBEBF;
+}
+
+.main {
+  margin: 150px 50px;
+  padding: 10px 0;
+    border-top: 5px solid #FEBEBF;
 }

@@ -39,6 +39,8 @@ h3 {
   font-size: 28px;
   font-weight: bold;
   text-transform: capitalize;
+  margin-bottom: 10px;
+  margin-top: 25px;
 
 }
 
@@ -103,10 +105,7 @@ div.headshot:hover {
   margin: 150px 50px;
   padding: 10px 0;
   border-top: 5px solid #FEBEBF;
-}
-
-.main div{
-  margin: 20px;
+  margin: 120px 50px 50px 50px;
 }
 
 footer {
@@ -114,5 +113,6 @@ footer {
   font-weight: bolder;
   background-color: #FEBEBF;
   margin: 0px 50px 50px 50px;
-  padding: 30px;
+  padding: 20px;
+  box-shadow: 1px 1px 1px rgba(0,0,0,.5);
 }
